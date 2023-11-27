@@ -7,7 +7,7 @@ git config --global --add safe.directory /github/workspace
 
 python3 /usr/bin/feed.py
 
-git add -a
+git add .
 git commit -m "Update feed"
 git push --set-upstream origin main
 
